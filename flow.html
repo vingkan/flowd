@@ -217,16 +217,28 @@
 
 	//SCRIPT/////////////////////////////////////////////////
 	
+	/*
+	* Displays an arrow alert for users to view keyboard shortcuts
+	*/
 	function drawshort(){
 		document.getElementById("shortcut").style.opacity="1.0";
 		document.getElementById("shortcut").style.marginTop="10px";
 	}
 
+	/*
+	* Displays the list of keyboard shortcuts
+	*/
 	function show(){
 		document.getElementById('shortcutbank').style.display="block";
 		document.getElementById('shortcutbank').style.backgroundColor="rgba(0,0,0,0.9)";
 	}
 
+
+	/*
+	* Creates a new note horizontally on the argument of the given number
+	* To "extend" the flow in a debate is to reply to a previous contention in a specific argument
+	* var argtag (string): 'arg' followed by the argument number
+	*/
 	function extend(argtag){
 		
 		var counter = document.getElementById('argcounter').value;
@@ -285,6 +297,9 @@
 		document.getElementById('arg' + key + 'note' + flowupdate).focus();
 	}
 
+	/*
+	* Creates a new argument vertically on the page
+	*/
 	function newarg(){
 		var number = document.getElementById('argcounter').value;
 		
@@ -334,6 +349,9 @@
 		//document.getElementById('arg' + newnumb + 'note1').focus();
 	}
 
+	/*
+	* Sets the first argument and note box of the flow
+	*/
 	function firstarg(){
 		var number = document.getElementById('argcounter').value;
 
@@ -352,6 +370,9 @@
 		document.getElementById('arg' + newnumb + 'note1').focus();
 	}
 
+	/*
+	* Converts the arguments and notes in the flowpad to a display of text that can be copied and saved as a summary of the debate
+	*/
 	function printsheet(){
 		var argcount = document.getElementById('argcounter').value;
 		var sheet = new Array();
