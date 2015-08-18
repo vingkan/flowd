@@ -16,6 +16,7 @@ Some lessons I learned from my sample users:
 Visit vinkgan.github.io/flowd to view the demo.
 
 # Contributors
+If you are interested in improving upon this idea, I would love to hear about it! Reach out to me at vkannan3@hawk.iit.edu.
 
 # License
 See LICENSE.md.
