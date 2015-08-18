@@ -82,13 +82,25 @@
 /*//TEXT/////////////////////////////////////*/
 
 		@font-face{
-			font-family: "ReganSlab";
-			src: url("ReganSlab-Bold.otf") format('opentype');
+			font-family: ReganSlab;
+			src: url("fonts/ReganSlab-Bold.otf") format('opentype');
 		}
 
 		@font-face{
-			font-family: "Agenda";
-			src: url("Agenda-Light.otf") format('opentype');
+			font-family: ReganSlab;
+			src: url("fonts/ReganSlab-Ultra.otf") format('opentype');
+			font-weight: bold;
+		}
+
+		@font-face{
+			font-family: Agenda;
+			src: url("fonts/Agenda-Light.otf") format('opentype');
+		}
+
+		@font-face{
+			font-family: Agenda;
+			src: url("fonts/Agenda-Bold.otf") format('opentype');
+			font-weight: bold;
 		}
 
 		textarea.notea,textarea.noteb{
